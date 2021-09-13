@@ -1,6 +1,6 @@
 {
   "name": "@kalenderjawa/pancawara",
-  "description": "5 hari yang dipakai dalam penanggalan (kalender) Jawa",
+  "description": "Sistem 5 hari yang dipakai dalam penanggalan (kalender) Jawa",
   "version": "1.0.0",
   "type": "module",
   "main": "lib/pancawara.min.cjs",
@@ -23,13 +23,13 @@
   },  
   "scripts": {
     "build": "npx rollup --config",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\""
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kalenderjawa/pancawara.git"
   },
-  "keywords": [],
+  "keywords": ["pasaran", "pancawara"],
   "author": "Equan Pr. <equan.p@gmail.com>",
   "license": "MIT",
   "bugs": {
