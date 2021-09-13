@@ -10,4 +10,4 @@ Sistem 5 hari yang dipakai dalam penanggalan (kalender) Jawa atau sering disebut
 |  4  |  Wage   |   4   |
 |  5  | Kliwon  |   8   |
 
-> *Neptu* secara umum adalah bobot angka dari pasaran dan salah satu kegunaannya adalah perhitungan weton.
+> *Neptu* secara umum adalah bobot angka dari pasaran dan salah satu kegunaannya adalah untuk perhitungan weton.
