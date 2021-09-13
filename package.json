@@ -1,4 +1,41 @@
 {
+  "name": "@kalenderjawa/pancawara",
+  "description": "5 hari yang dipakai dalam penanggalan (kalender) Jawa",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "lib/pancawara.min.cjs",
+  "module": "lib/pancawara.min.js",
+  "browser": "lib/pancawara.browser.min.js",
+  "exports": {
+    ".": {
+      "require": "./lib/pancawara.min.cjs",
+      "import": "./lib/pancawara.min.js",
+      "browser": "./lib/pancawara.browser.min.js"
+    },
+    "./package.json": "./package.json",
+    "./": "./"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },  
+  "scripts": {
+    "build": "npx rollup --config",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kalenderjawa/pancawara.git"
+  },
+  "keywords": [],
+  "author": "Equan Pr. <equan.p@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kalenderjawa/pancawara/issues"
+  },
+  "homepage": "https://github.com/kalenderjawa/pancawara#readme",
   "devDependencies": {
     "rollup": "^2.56.3",
     "rollup-plugin-terser": "^7.0.2"
