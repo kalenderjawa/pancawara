@@ -1,4 +1,4 @@
-# Pancawara
+# @kalenderjawa/pancawara
 
 Sistem 5 hari yang dipakai dalam penanggalan (kalender) Jawa atau sering disebut dengan _pasaran_.
 
